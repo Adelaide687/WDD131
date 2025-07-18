@@ -18,7 +18,7 @@
     const header = document.getElementById("pattern-header");
     header.innerHTML = `
       <img src="${pattern.image}" alt="${pattern.name}" width="150" />
-      <h1>${pattern.name}</h1>
+      <h2>${pattern.name}</h2>
     `;
   
     // Sidebar
