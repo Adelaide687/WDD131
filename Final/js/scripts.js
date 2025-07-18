@@ -19,7 +19,7 @@ function displayCards(patternList) {
     card.className = "card";
     card.href = `pattern.html?id=${pattern.id}`;
     card.innerHTML = `
-      <img src="${pattern.image}" alt="${pattern.name}" />
+      <img src="${pattern.image}" alt="image of ${pattern.name}" />
       <h2>${pattern.name}</h2>
     `;
     container.appendChild(card);
